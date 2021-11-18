@@ -1,0 +1,1838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C14D574272034B800DBA607 /* CollaborationParticipantAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C14D573272034B800DBA607 /* CollaborationParticipantAction.swift */; };
+		7C14D57F2720467D00DBA607 /* Sticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C14D57E2720467D00DBA607 /* Sticky.swift */; };
+		7C18F1862745BCC900440B58 /* CollaborationParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F1852745BCC900440B58 /* CollaborationParticipant.swift */; };
+		7C18F1872745BCC900440B58 /* CollaborationParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F1852745BCC900440B58 /* CollaborationParticipant.swift */; };
+		7C18F1882745BCC900440B58 /* CollaborationParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F1852745BCC900440B58 /* CollaborationParticipant.swift */; };
+		7C18F1892745BCC900440B58 /* CollaborationParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F1852745BCC900440B58 /* CollaborationParticipant.swift */; };
+		7C18F18C2745BCF100440B58 /* CollaborationHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F18B2745BCF100440B58 /* CollaborationHost.swift */; };
+		7C18F18D2745BCF100440B58 /* CollaborationHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F18B2745BCF100440B58 /* CollaborationHost.swift */; };
+		7C18F18E2745BCF100440B58 /* CollaborationHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F18B2745BCF100440B58 /* CollaborationHost.swift */; };
+		7C18F18F2745BCF100440B58 /* CollaborationHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F18B2745BCF100440B58 /* CollaborationHost.swift */; };
+		7C18F1922745C2E800440B58 /* ParticipantAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C4D2722820500536B87 /* ParticipantAppState.swift */; };
+		7C18F1932745C2E800440B58 /* ParticipantAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C4D2722820500536B87 /* ParticipantAppState.swift */; };
+		7C18F1952745E80A00440B58 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F1942745E80A00440B58 /* RootView.swift */; };
+		7C18F1962745E9FF00440B58 /* JoinScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDD72736907A000CA975 /* JoinScreenViewModel.swift */; };
+		7C18F1972745F54C00440B58 /* ParticipantScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDDB273692EC000CA975 /* ParticipantScreenViewModel.swift */; };
+		7C18F1982745F54F00440B58 /* ParticipantScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDE027369318000CA975 /* ParticipantScreenView.swift */; };
+		7C18F1992745F55100440B58 /* ParticipantScreenViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C5627228F2500536B87 /* ParticipantScreenViewContainer.swift */; };
+		7C18F19A2745F72000440B58 /* ResizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E704727366F6D0045B5AE /* ResizeImage.swift */; };
+		7C18F19B2745F86C00440B58 /* JoinScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDD927369089000CA975 /* JoinScreenView.swift */; };
+		7C18F19C2745F87000440B58 /* JoinScreenViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD41DC27215639004A3EAA /* JoinScreenViewContainer.swift */; };
+		7C18F19F2745FE5E00440B58 /* ImagePickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F19E2745FE5E00440B58 /* ImagePickerButton.swift */; };
+		7C18F1A02745FE6100440B58 /* ImagePickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F19E2745FE5E00440B58 /* ImagePickerButton.swift */; };
+		7C18F1A22745FEDE00440B58 /* AppKitImagePickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18F1A12745FEDE00440B58 /* AppKitImagePickerButton.swift */; };
+		7C18F1A32746001000440B58 /* BetterTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2CE0D42737470F001DBBBF /* BetterTextEditor.swift */; };
+		7C1E703F2736293A0045B5AE /* UIKitImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E703E2736293A0045B5AE /* UIKitImagePicker.swift */; };
+		7C1E704127362BC50045B5AE /* UIKitImagePickerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E704027362BC50045B5AE /* UIKitImagePickerModifier.swift */; };
+		7C1E7044273651B30045B5AE /* UIKitImagePickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E7043273651B30045B5AE /* UIKitImagePickerButton.swift */; };
+		7C1E704827366F6D0045B5AE /* ResizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E704727366F6D0045B5AE /* ResizeImage.swift */; };
+		7C1E704B273686CB0045B5AE /* ViewModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E704A273686CB0045B5AE /* ViewModelContainer.swift */; };
+		7C1E704C2736885E0045B5AE /* ViewModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E704A273686CB0045B5AE /* ViewModelContainer.swift */; };
+		7C1E704D2736885F0045B5AE /* ViewModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E704A273686CB0045B5AE /* ViewModelContainer.swift */; };
+		7C1E704E273688650045B5AE /* ViewModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1E704A273686CB0045B5AE /* ViewModelContainer.swift */; };
+		7C2CE0D2273746F0001DBBBF /* DismissibleKeyboardWorkaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2CE0D1273746F0001DBBBF /* DismissibleKeyboardWorkaround.swift */; };
+		7C2CE0D52737470F001DBBBF /* BetterTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2CE0D42737470F001DBBBF /* BetterTextEditor.swift */; };
+		7C38946F271F93C600751216 /* CollaboRoom_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38946E271F93C600751216 /* CollaboRoom_iOSApp.swift */; };
+		7C389471271F93C600751216 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389470271F93C600751216 /* RootView.swift */; };
+		7C389473271F93C700751216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C389472271F93C700751216 /* Assets.xcassets */; };
+		7C389476271F93C700751216 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C389475271F93C700751216 /* Preview Assets.xcassets */; };
+		7C38947F271F940E00751216 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38947E271F940E00751216 /* Server.swift */; };
+		7C389481271F953300751216 /* Server_MCNearbyServiceAdvertiserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389480271F953300751216 /* Server_MCNearbyServiceAdvertiserDelegate.swift */; };
+		7C389486271F997D00751216 /* Server_MCSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389485271F997D00751216 /* Server_MCSessionDelegate.swift */; };
+		7C389489271F9BA400751216 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389488271F9BA400751216 /* Message.swift */; };
+		7C38948B271F9D5E00751216 /* Discoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38948A271F9D5E00751216 /* Discoverer.swift */; };
+		7C38948D271F9E3800751216 /* Discoverer_MCNearbyServiceBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38948C271F9E3800751216 /* Discoverer_MCNearbyServiceBrowserDelegate.swift */; };
+		7C389490271FA0DA00751216 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38948F271FA0DA00751216 /* ServiceType.swift */; };
+		7C389492271FA12D00751216 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389491271FA12D00751216 /* Client.swift */; };
+		7C389494271FA1D300751216 /* Client_MCSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389493271FA1D300751216 /* Client_MCSessionDelegate.swift */; };
+		7C6876D827255709000C9F4B /* HostScreenViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6876D727255709000C9F4B /* HostScreenViewContainer.swift */; };
+		7C89EDCC27368D25000CA975 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDCB27368D25000CA975 /* RootView.swift */; };
+		7C89EDCE27368D68000CA975 /* StartScreenViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDCD27368D68000CA975 /* StartScreenViewContainer.swift */; };
+		7C89EDD027368D7E000CA975 /* StartScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDCF27368D7E000CA975 /* StartScreenViewModel.swift */; };
+		7C89EDD227368DA2000CA975 /* HostScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDD127368DA2000CA975 /* HostScreenViewModel.swift */; };
+		7C89EDD427368DB7000CA975 /* HostScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDD327368DB7000CA975 /* HostScreenView.swift */; };
+		7C89EDD627368EBB000CA975 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDD527368EBB000CA975 /* ContentView.swift */; };
+		7C89EDD82736907A000CA975 /* JoinScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDD72736907A000CA975 /* JoinScreenViewModel.swift */; };
+		7C89EDDA27369089000CA975 /* JoinScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDD927369089000CA975 /* JoinScreenView.swift */; };
+		7C89EDDC273692EC000CA975 /* ParticipantScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDDB273692EC000CA975 /* ParticipantScreenViewModel.swift */; };
+		7C89EDE127369318000CA975 /* ParticipantScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EDE027369318000CA975 /* ParticipantScreenView.swift */; };
+		7C9A458E27378A5100804B5D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A458D27378A5100804B5D /* RootView.swift */; };
+		7CC460F42721090100ABDCF0 /* CollaboRoom_tvOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC460F32721090100ABDCF0 /* CollaboRoom_tvOSApp.swift */; };
+		7CC460F62721090100ABDCF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC460F52721090100ABDCF0 /* ContentView.swift */; };
+		7CC460F82721090300ABDCF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC460F72721090300ABDCF0 /* Assets.xcassets */; };
+		7CC460FB2721090300ABDCF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC460FA2721090300ABDCF0 /* Preview Assets.xcassets */; };
+		7CC461002721097C00ABDCF0 /* Discoverer_MCNearbyServiceBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38948C271F9E3800751216 /* Discoverer_MCNearbyServiceBrowserDelegate.swift */; };
+		7CC461022721097C00ABDCF0 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389491271FA12D00751216 /* Client.swift */; };
+		7CC461032721097C00ABDCF0 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38947E271F940E00751216 /* Server.swift */; };
+		7CC461052721097C00ABDCF0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389488271F9BA400751216 /* Message.swift */; };
+		7CC461072721097C00ABDCF0 /* Client_MCSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389493271FA1D300751216 /* Client_MCSessionDelegate.swift */; };
+		7CC461092721097C00ABDCF0 /* Server_MCSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389485271F997D00751216 /* Server_MCSessionDelegate.swift */; };
+		7CC4610A2721097C00ABDCF0 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38948F271FA0DA00751216 /* ServiceType.swift */; };
+		7CC4610C2721097C00ABDCF0 /* Server_MCNearbyServiceAdvertiserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389480271F953300751216 /* Server_MCNearbyServiceAdvertiserDelegate.swift */; };
+		7CC4610F2721097C00ABDCF0 /* CollaborationParticipantAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C14D573272034B800DBA607 /* CollaborationParticipantAction.swift */; };
+		7CC461102721097C00ABDCF0 /* Discoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38948A271F9D5E00751216 /* Discoverer.swift */; };
+		7CC461152721097C00ABDCF0 /* Sticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C14D57E2720467D00DBA607 /* Sticky.swift */; };
+		7CCC8C4E2722820500536B87 /* ParticipantAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C4D2722820500536B87 /* ParticipantAppState.swift */; };
+		7CCC8C502722851500536B87 /* CollaborationHostAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C4F2722851500536B87 /* CollaborationHostAction.swift */; };
+		7CCC8C532722893E00536B87 /* CollaborationHostAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C4F2722851500536B87 /* CollaborationHostAction.swift */; };
+		7CCC8C542722893F00536B87 /* CollaborationHostAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C4F2722851500536B87 /* CollaborationHostAction.swift */; };
+		7CCC8C5727228F2500536B87 /* ParticipantScreenViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C5627228F2500536B87 /* ParticipantScreenViewContainer.swift */; };
+		7CCC8C5B2722925E00536B87 /* HostAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C5A2722925E00536B87 /* HostAppState.swift */; };
+		7CCC8C5C2722925E00536B87 /* HostAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C5A2722925E00536B87 /* HostAppState.swift */; };
+		7CCC8C5D2722925E00536B87 /* HostAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C5A2722925E00536B87 /* HostAppState.swift */; };
+		7CCD41512721326D004A3EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCD41502721326D004A3EAA /* Assets.xcassets */; };
+		7CCD41572721326D004A3EAA /* CollaboRoom-watchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7CCD41562721326D004A3EAA /* CollaboRoom-watchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7CCD415C2721326D004A3EAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD415B2721326D004A3EAA /* ContentView.swift */; };
+		7CCD415E2721326D004A3EAA /* CollaboRoom_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD415D2721326D004A3EAA /* CollaboRoom_watchOSApp.swift */; };
+		7CCD41602721326D004A3EAA /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD415F2721326D004A3EAA /* ComplicationController.swift */; };
+		7CCD41622721326E004A3EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCD41612721326E004A3EAA /* Assets.xcassets */; };
+		7CCD41652721326E004A3EAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCD41642721326E004A3EAA /* Preview Assets.xcassets */; };
+		7CCD41692721326E004A3EAA /* CollaboRoom-watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7CCD414E2721326C004A3EAA /* CollaboRoom-watchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7CCD417927213292004A3EAA /* CollaboRoom_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD417827213292004A3EAA /* CollaboRoom_macOSApp.swift */; };
+		7CCD417B27213292004A3EAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD417A27213292004A3EAA /* ContentView.swift */; };
+		7CCD417D27213293004A3EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCD417C27213293004A3EAA /* Assets.xcassets */; };
+		7CCD418027213293004A3EAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCD417F27213293004A3EAA /* Preview Assets.xcassets */; };
+		7CCD419B272135BF004A3EAA /* CollaborationParticipantAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C14D573272034B800DBA607 /* CollaborationParticipantAction.swift */; };
+		7CCD419E272135BF004A3EAA /* Client_MCSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389493271FA1D300751216 /* Client_MCSessionDelegate.swift */; };
+		7CCD41A1272135BF004A3EAA /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389491271FA12D00751216 /* Client.swift */; };
+		7CCD41A2272135BF004A3EAA /* Sticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C14D57E2720467D00DBA607 /* Sticky.swift */; };
+		7CCD41A3272135BF004A3EAA /* Discoverer_MCNearbyServiceBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38948C271F9E3800751216 /* Discoverer_MCNearbyServiceBrowserDelegate.swift */; };
+		7CCD41A5272135BF004A3EAA /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38948F271FA0DA00751216 /* ServiceType.swift */; };
+		7CCD41A6272135BF004A3EAA /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38947E271F940E00751216 /* Server.swift */; };
+		7CCD41A7272135BF004A3EAA /* Discoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38948A271F9D5E00751216 /* Discoverer.swift */; };
+		7CCD41A8272135BF004A3EAA /* Server_MCNearbyServiceAdvertiserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389480271F953300751216 /* Server_MCNearbyServiceAdvertiserDelegate.swift */; };
+		7CCD41A9272135BF004A3EAA /* Server_MCSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389485271F997D00751216 /* Server_MCSessionDelegate.swift */; };
+		7CCD41AA272135BF004A3EAA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389488271F9BA400751216 /* Message.swift */; };
+		7CCD41AD272135C4004A3EAA /* CollaborationParticipantAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C14D573272034B800DBA607 /* CollaborationParticipantAction.swift */; };
+		7CCD41B4272135C4004A3EAA /* Sticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C14D57E2720467D00DBA607 /* Sticky.swift */; };
+		7CCD41D1272139DF004A3EAA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C389488271F9BA400751216 /* Message.swift */; };
+		7CCD41D7272141AB004A3EAA /* StartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD41D5272141AB004A3EAA /* StartScreenView.swift */; };
+		7CCD41DD27215639004A3EAA /* JoinScreenViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD41DC27215639004A3EAA /* JoinScreenViewContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CCD41582721326D004A3EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C389461271F938200751216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCD41552721326D004A3EAA;
+			remoteInfo = "CollaboRoom-watchOS WatchKit Extension";
+		};
+		7CCD41672721326E004A3EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C389461271F938200751216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCD414D2721326C004A3EAA;
+			remoteInfo = "CollaboRoom-watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7CCD416D2721326E004A3EAA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7CCD41572721326D004A3EAA /* CollaboRoom-watchOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCD41712721326E004A3EAA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7CCD41692721326E004A3EAA /* CollaboRoom-watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C14D573272034B800DBA607 /* CollaborationParticipantAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborationParticipantAction.swift; sourceTree = "<group>"; };
+		7C14D57E2720467D00DBA607 /* Sticky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticky.swift; sourceTree = "<group>"; };
+		7C18F1852745BCC900440B58 /* CollaborationParticipant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborationParticipant.swift; sourceTree = "<group>"; };
+		7C18F18B2745BCF100440B58 /* CollaborationHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborationHost.swift; sourceTree = "<group>"; };
+		7C18F1912745C29A00440B58 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7C18F1942745E80A00440B58 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7C18F19E2745FE5E00440B58 /* ImagePickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerButton.swift; sourceTree = "<group>"; };
+		7C18F1A12745FEDE00440B58 /* AppKitImagePickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKitImagePickerButton.swift; sourceTree = "<group>"; };
+		7C1E703E2736293A0045B5AE /* UIKitImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitImagePicker.swift; sourceTree = "<group>"; };
+		7C1E704027362BC50045B5AE /* UIKitImagePickerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitImagePickerModifier.swift; sourceTree = "<group>"; };
+		7C1E7043273651B30045B5AE /* UIKitImagePickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitImagePickerButton.swift; sourceTree = "<group>"; };
+		7C1E704727366F6D0045B5AE /* ResizeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImage.swift; sourceTree = "<group>"; };
+		7C1E704A273686CB0045B5AE /* ViewModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelContainer.swift; sourceTree = "<group>"; };
+		7C2CE0D1273746F0001DBBBF /* DismissibleKeyboardWorkaround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissibleKeyboardWorkaround.swift; sourceTree = "<group>"; };
+		7C2CE0D42737470F001DBBBF /* BetterTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterTextEditor.swift; sourceTree = "<group>"; };
+		7C2CE0D72737539B001DBBBF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7C38946B271F93C600751216 /* CollaboRoom-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CollaboRoom-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C38946E271F93C600751216 /* CollaboRoom_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaboRoom_iOSApp.swift; sourceTree = "<group>"; };
+		7C389470271F93C600751216 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7C389472271F93C700751216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C389475271F93C700751216 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C38947E271F940E00751216 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		7C389480271F953300751216 /* Server_MCNearbyServiceAdvertiserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server_MCNearbyServiceAdvertiserDelegate.swift; sourceTree = "<group>"; };
+		7C389485271F997D00751216 /* Server_MCSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server_MCSessionDelegate.swift; sourceTree = "<group>"; };
+		7C389488271F9BA400751216 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7C38948A271F9D5E00751216 /* Discoverer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discoverer.swift; sourceTree = "<group>"; };
+		7C38948C271F9E3800751216 /* Discoverer_MCNearbyServiceBrowserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discoverer_MCNearbyServiceBrowserDelegate.swift; sourceTree = "<group>"; };
+		7C38948F271FA0DA00751216 /* ServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
+		7C389491271FA12D00751216 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		7C389493271FA1D300751216 /* Client_MCSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_MCSessionDelegate.swift; sourceTree = "<group>"; };
+		7C389497271FDC6C00751216 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7C6876D727255709000C9F4B /* HostScreenViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostScreenViewContainer.swift; sourceTree = "<group>"; };
+		7C89EDCB27368D25000CA975 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7C89EDCD27368D68000CA975 /* StartScreenViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewContainer.swift; sourceTree = "<group>"; };
+		7C89EDCF27368D7E000CA975 /* StartScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewModel.swift; sourceTree = "<group>"; };
+		7C89EDD127368DA2000CA975 /* HostScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostScreenViewModel.swift; sourceTree = "<group>"; };
+		7C89EDD327368DB7000CA975 /* HostScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostScreenView.swift; sourceTree = "<group>"; };
+		7C89EDD527368EBB000CA975 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C89EDD72736907A000CA975 /* JoinScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinScreenViewModel.swift; sourceTree = "<group>"; };
+		7C89EDD927369089000CA975 /* JoinScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinScreenView.swift; sourceTree = "<group>"; };
+		7C89EDDB273692EC000CA975 /* ParticipantScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantScreenViewModel.swift; sourceTree = "<group>"; };
+		7C89EDE027369318000CA975 /* ParticipantScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantScreenView.swift; sourceTree = "<group>"; };
+		7C9A458D27378A5100804B5D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7CC460F12721090100ABDCF0 /* CollaboRoom-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CollaboRoom-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC460F32721090100ABDCF0 /* CollaboRoom_tvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaboRoom_tvOSApp.swift; sourceTree = "<group>"; };
+		7CC460F52721090100ABDCF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CC460F72721090300ABDCF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC460FA2721090300ABDCF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CCC8C4D2722820500536B87 /* ParticipantAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantAppState.swift; sourceTree = "<group>"; };
+		7CCC8C4F2722851500536B87 /* CollaborationHostAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborationHostAction.swift; sourceTree = "<group>"; };
+		7CCC8C5627228F2500536B87 /* ParticipantScreenViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantScreenViewContainer.swift; sourceTree = "<group>"; };
+		7CCC8C5A2722925E00536B87 /* HostAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostAppState.swift; sourceTree = "<group>"; };
+		7CCD414E2721326C004A3EAA /* CollaboRoom-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CollaboRoom-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCD41502721326D004A3EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CCD41562721326D004A3EAA /* CollaboRoom-watchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CollaboRoom-watchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCD415B2721326D004A3EAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CCD415D2721326D004A3EAA /* CollaboRoom_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaboRoom_watchOSApp.swift; sourceTree = "<group>"; };
+		7CCD415F2721326D004A3EAA /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		7CCD41612721326E004A3EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CCD41642721326E004A3EAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CCD41662721326E004A3EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCD417627213292004A3EAA /* CollaboRoom-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CollaboRoom-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCD417827213292004A3EAA /* CollaboRoom_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaboRoom_macOSApp.swift; sourceTree = "<group>"; };
+		7CCD417A27213292004A3EAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CCD417C27213293004A3EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CCD417F27213293004A3EAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CCD418127213293004A3EAA /* CollaboRoom_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CollaboRoom_macOS.entitlements; sourceTree = "<group>"; };
+		7CCD41D5272141AB004A3EAA /* StartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenView.swift; sourceTree = "<group>"; };
+		7CCD41DC27215639004A3EAA /* JoinScreenViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinScreenViewContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C389468271F93C600751216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC460EE2721090100ABDCF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCD41532721326D004A3EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCD417327213292004A3EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C18F1842745BCB600440B58 /* Participant */ = {
+			isa = PBXGroup;
+			children = (
+				7C18F1852745BCC900440B58 /* CollaborationParticipant.swift */,
+			);
+			path = Participant;
+			sourceTree = "<group>";
+		};
+		7C18F18A2745BCE600440B58 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				7C18F18B2745BCF100440B58 /* CollaborationHost.swift */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+		7C18F1902745C27C00440B58 /* AppState */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC8C4D2722820500536B87 /* ParticipantAppState.swift */,
+				7CCC8C5A2722925E00536B87 /* HostAppState.swift */,
+				7C18F1912745C29A00440B58 /* README.md */,
+			);
+			path = AppState;
+			sourceTree = "<group>";
+		};
+		7C18F19D2745FE5500440B58 /* AppKit */ = {
+			isa = PBXGroup;
+			children = (
+				7C18F1A12745FEDE00440B58 /* AppKitImagePickerButton.swift */,
+			);
+			path = AppKit;
+			sourceTree = "<group>";
+		};
+		7C1E703C273629210045B5AE /* TheSadPlace */ = {
+			isa = PBXGroup;
+			children = (
+				7C1E7049273686BE0045B5AE /* ViewModelContainer */,
+				7C2CE0D327374709001DBBBF /* BetterTextEditor */,
+				7C2CE0D0273746E4001DBBBF /* DismissibleKeyboardWorkaround */,
+				7C2CE0D72737539B001DBBBF /* README.md */,
+			);
+			path = TheSadPlace;
+			sourceTree = "<group>";
+		};
+		7C1E703D273629260045B5AE /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				7C18F19D2745FE5500440B58 /* AppKit */,
+				7C1E704227362C640045B5AE /* UIKit */,
+				7C18F19E2745FE5E00440B58 /* ImagePickerButton.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		7C1E704227362C640045B5AE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7C1E703E2736293A0045B5AE /* UIKitImagePicker.swift */,
+				7C1E704027362BC50045B5AE /* UIKitImagePickerModifier.swift */,
+				7C1E7043273651B30045B5AE /* UIKitImagePickerButton.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7C1E704527366F5D0045B5AE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7C1E704627366F620045B5AE /* ResizeImage */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7C1E704627366F620045B5AE /* ResizeImage */ = {
+			isa = PBXGroup;
+			children = (
+				7C1E704727366F6D0045B5AE /* ResizeImage.swift */,
+			);
+			path = ResizeImage;
+			sourceTree = "<group>";
+		};
+		7C1E7049273686BE0045B5AE /* ViewModelContainer */ = {
+			isa = PBXGroup;
+			children = (
+				7C1E704A273686CB0045B5AE /* ViewModelContainer.swift */,
+			);
+			path = ViewModelContainer;
+			sourceTree = "<group>";
+		};
+		7C2CE0D0273746E4001DBBBF /* DismissibleKeyboardWorkaround */ = {
+			isa = PBXGroup;
+			children = (
+				7C2CE0D1273746F0001DBBBF /* DismissibleKeyboardWorkaround.swift */,
+			);
+			path = DismissibleKeyboardWorkaround;
+			sourceTree = "<group>";
+		};
+		7C2CE0D327374709001DBBBF /* BetterTextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				7C2CE0D42737470F001DBBBF /* BetterTextEditor.swift */,
+			);
+			path = BetterTextEditor;
+			sourceTree = "<group>";
+		};
+		7C2CE0D627374CE8001DBBBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C1E703D273629260045B5AE /* ImagePicker */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C389460271F938200751216 = {
+			isa = PBXGroup;
+			children = (
+				7C5380BE27423966001BC029 /* Common */,
+				7C38946D271F93C600751216 /* CollaboRoom-iOS */,
+				7CC460F22721090100ABDCF0 /* CollaboRoom-tvOS */,
+				7CCD414F2721326C004A3EAA /* CollaboRoom-watchOS */,
+				7CCD415A2721326D004A3EAA /* CollaboRoom-watchOS WatchKit Extension */,
+				7CCD417727213292004A3EAA /* CollaboRoom-macOS */,
+				7C38946C271F93C600751216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C38946C271F93C600751216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C38946B271F93C600751216 /* CollaboRoom-iOS.app */,
+				7CC460F12721090100ABDCF0 /* CollaboRoom-tvOS.app */,
+				7CCD414E2721326C004A3EAA /* CollaboRoom-watchOS.app */,
+				7CCD41562721326D004A3EAA /* CollaboRoom-watchOS WatchKit Extension.appex */,
+				7CCD417627213292004A3EAA /* CollaboRoom-macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C38946D271F93C600751216 /* CollaboRoom-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD41DB27215614004A3EAA /* Screens */,
+				7C38946E271F93C600751216 /* CollaboRoom_iOSApp.swift */,
+				7C389470271F93C600751216 /* RootView.swift */,
+				7C89EDD527368EBB000CA975 /* ContentView.swift */,
+				7C389472271F93C700751216 /* Assets.xcassets */,
+				7C389474271F93C700751216 /* Preview Content */,
+			);
+			path = "CollaboRoom-iOS";
+			sourceTree = "<group>";
+		};
+		7C389474271F93C700751216 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7C389475271F93C700751216 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7C38947B271F93E900751216 /* MultipeerConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				7C389482271F956F00751216 /* Discovery */,
+				7C38947D271F93FD00751216 /* Client */,
+				7C38947C271F93F500751216 /* Server */,
+				7C38948F271FA0DA00751216 /* ServiceType.swift */,
+				7C389497271FDC6C00751216 /* README.md */,
+			);
+			path = MultipeerConnectivity;
+			sourceTree = "<group>";
+		};
+		7C38947C271F93F500751216 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				7C38947E271F940E00751216 /* Server.swift */,
+				7C389480271F953300751216 /* Server_MCNearbyServiceAdvertiserDelegate.swift */,
+				7C389485271F997D00751216 /* Server_MCSessionDelegate.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		7C38947D271F93FD00751216 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				7C389491271FA12D00751216 /* Client.swift */,
+				7C389493271FA1D300751216 /* Client_MCSessionDelegate.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		7C389482271F956F00751216 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				7C38948A271F9D5E00751216 /* Discoverer.swift */,
+				7C38948C271F9E3800751216 /* Discoverer_MCNearbyServiceBrowserDelegate.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		7C389487271F9B8000751216 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				7C389488271F9BA400751216 /* Message.swift */,
+			);
+			path = Messaging;
+			sourceTree = "<group>";
+		};
+		7C389499271FDF1E00751216 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7C18F18A2745BCE600440B58 /* Host */,
+				7C18F1842745BCB600440B58 /* Participant */,
+				7C38949D271FE1B000751216 /* DataTypes */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7C38949D271FE1B000751216 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				7C14D573272034B800DBA607 /* CollaborationParticipantAction.swift */,
+				7C14D57E2720467D00DBA607 /* Sticky.swift */,
+				7CCC8C4F2722851500536B87 /* CollaborationHostAction.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		7C5380BE27423966001BC029 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7C18F1902745C27C00440B58 /* AppState */,
+				7C1E703C273629210045B5AE /* TheSadPlace */,
+				7C2CE0D627374CE8001DBBBF /* Views */,
+				7C1E704527366F5D0045B5AE /* Utility */,
+				7CCD41D0272139C1004A3EAA /* Network */,
+				7C389499271FDF1E00751216 /* Domain */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7C6876D6272556FE000C9F4B /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				7C6876D727255709000C9F4B /* HostScreenViewContainer.swift */,
+				7C89EDD127368DA2000CA975 /* HostScreenViewModel.swift */,
+				7C89EDD327368DB7000CA975 /* HostScreenView.swift */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+		7C82C8492722679E00DBD24C /* Join */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD41DC27215639004A3EAA /* JoinScreenViewContainer.swift */,
+				7C89EDD72736907A000CA975 /* JoinScreenViewModel.swift */,
+				7C89EDD927369089000CA975 /* JoinScreenView.swift */,
+			);
+			path = Join;
+			sourceTree = "<group>";
+		};
+		7CC460F22721090100ABDCF0 /* CollaboRoom-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD41D32721419A004A3EAA /* Screens */,
+				7CC460F32721090100ABDCF0 /* CollaboRoom_tvOSApp.swift */,
+				7C89EDCB27368D25000CA975 /* RootView.swift */,
+				7CC460F52721090100ABDCF0 /* ContentView.swift */,
+				7CC460F72721090300ABDCF0 /* Assets.xcassets */,
+				7CC460F92721090300ABDCF0 /* Preview Content */,
+			);
+			path = "CollaboRoom-tvOS";
+			sourceTree = "<group>";
+		};
+		7CC460F92721090300ABDCF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CC460FA2721090300ABDCF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CCC8C5527228F1100536B87 /* Participant */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC8C5627228F2500536B87 /* ParticipantScreenViewContainer.swift */,
+				7C89EDDB273692EC000CA975 /* ParticipantScreenViewModel.swift */,
+				7C89EDE027369318000CA975 /* ParticipantScreenView.swift */,
+			);
+			path = Participant;
+			sourceTree = "<group>";
+		};
+		7CCD414F2721326C004A3EAA /* CollaboRoom-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD41502721326D004A3EAA /* Assets.xcassets */,
+			);
+			path = "CollaboRoom-watchOS";
+			sourceTree = "<group>";
+		};
+		7CCD415A2721326D004A3EAA /* CollaboRoom-watchOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD415D2721326D004A3EAA /* CollaboRoom_watchOSApp.swift */,
+				7C9A458D27378A5100804B5D /* RootView.swift */,
+				7CCD415B2721326D004A3EAA /* ContentView.swift */,
+				7CCD415F2721326D004A3EAA /* ComplicationController.swift */,
+				7CCD41612721326E004A3EAA /* Assets.xcassets */,
+				7CCD41662721326E004A3EAA /* Info.plist */,
+				7CCD41632721326E004A3EAA /* Preview Content */,
+			);
+			path = "CollaboRoom-watchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7CCD41632721326E004A3EAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD41642721326E004A3EAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CCD417727213292004A3EAA /* CollaboRoom-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD417827213292004A3EAA /* CollaboRoom_macOSApp.swift */,
+				7C18F1942745E80A00440B58 /* RootView.swift */,
+				7CCD417A27213292004A3EAA /* ContentView.swift */,
+				7CCD417C27213293004A3EAA /* Assets.xcassets */,
+				7CCD418127213293004A3EAA /* CollaboRoom_macOS.entitlements */,
+				7CCD417E27213293004A3EAA /* Preview Content */,
+			);
+			path = "CollaboRoom-macOS";
+			sourceTree = "<group>";
+		};
+		7CCD417E27213293004A3EAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD417F27213293004A3EAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CCD41D0272139C1004A3EAA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7C389487271F9B8000751216 /* Messaging */,
+				7C38947B271F93E900751216 /* MultipeerConnectivity */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7CCD41D32721419A004A3EAA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7C6876D6272556FE000C9F4B /* Host */,
+				7CCD41D42721419F004A3EAA /* Start */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7CCD41D42721419F004A3EAA /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				7C89EDCD27368D68000CA975 /* StartScreenViewContainer.swift */,
+				7C89EDCF27368D7E000CA975 /* StartScreenViewModel.swift */,
+				7CCD41D5272141AB004A3EAA /* StartScreenView.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		7CCD41DB27215614004A3EAA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC8C5527228F1100536B87 /* Participant */,
+				7C82C8492722679E00DBD24C /* Join */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C38946A271F93C600751216 /* CollaboRoom-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C389477271F93C700751216 /* Build configuration list for PBXNativeTarget "CollaboRoom-iOS" */;
+			buildPhases = (
+				7C389467271F93C600751216 /* Sources */,
+				7C389468271F93C600751216 /* Frameworks */,
+				7C389469271F93C600751216 /* Resources */,
+				7CCD41712721326E004A3EAA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCD41682721326E004A3EAA /* PBXTargetDependency */,
+			);
+			name = "CollaboRoom-iOS";
+			productName = "CollaboRoom-iOS";
+			productReference = 7C38946B271F93C600751216 /* CollaboRoom-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CC460F02721090100ABDCF0 /* CollaboRoom-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC460FC2721090300ABDCF0 /* Build configuration list for PBXNativeTarget "CollaboRoom-tvOS" */;
+			buildPhases = (
+				7CC460ED2721090100ABDCF0 /* Sources */,
+				7CC460EE2721090100ABDCF0 /* Frameworks */,
+				7CC460EF2721090100ABDCF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CollaboRoom-tvOS";
+			productName = "CollaboRoom-tvOS";
+			productReference = 7CC460F12721090100ABDCF0 /* CollaboRoom-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CCD414D2721326C004A3EAA /* CollaboRoom-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCD416E2721326E004A3EAA /* Build configuration list for PBXNativeTarget "CollaboRoom-watchOS" */;
+			buildPhases = (
+				7CCD414C2721326C004A3EAA /* Resources */,
+				7CCD416D2721326E004A3EAA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCD41592721326D004A3EAA /* PBXTargetDependency */,
+			);
+			name = "CollaboRoom-watchOS";
+			productName = "CollaboRoom-watchOS";
+			productReference = 7CCD414E2721326C004A3EAA /* CollaboRoom-watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7CCD41552721326D004A3EAA /* CollaboRoom-watchOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCD416A2721326E004A3EAA /* Build configuration list for PBXNativeTarget "CollaboRoom-watchOS WatchKit Extension" */;
+			buildPhases = (
+				7CCD41522721326D004A3EAA /* Sources */,
+				7CCD41532721326D004A3EAA /* Frameworks */,
+				7CCD41542721326D004A3EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CollaboRoom-watchOS WatchKit Extension";
+			productName = "CollaboRoom-watchOS WatchKit Extension";
+			productReference = 7CCD41562721326D004A3EAA /* CollaboRoom-watchOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		7CCD417527213292004A3EAA /* CollaboRoom-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCD418227213293004A3EAA /* Build configuration list for PBXNativeTarget "CollaboRoom-macOS" */;
+			buildPhases = (
+				7CCD417227213292004A3EAA /* Sources */,
+				7CCD417327213292004A3EAA /* Frameworks */,
+				7CCD417427213292004A3EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CollaboRoom-macOS";
+			productName = "CollaboRoom-macOS";
+			productReference = 7CCD417627213292004A3EAA /* CollaboRoom-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C389461271F938200751216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7C38946A271F93C600751216 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7CC460F02721090100ABDCF0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7CCD414D2721326C004A3EAA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7CCD41552721326D004A3EAA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7CCD417527213292004A3EAA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 7C389464271F938200751216 /* Build configuration list for PBXProject "CollaboRoom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C389460271F938200751216;
+			productRefGroup = 7C38946C271F93C600751216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C38946A271F93C600751216 /* CollaboRoom-iOS */,
+				7CC460F02721090100ABDCF0 /* CollaboRoom-tvOS */,
+				7CCD414D2721326C004A3EAA /* CollaboRoom-watchOS */,
+				7CCD41552721326D004A3EAA /* CollaboRoom-watchOS WatchKit Extension */,
+				7CCD417527213292004A3EAA /* CollaboRoom-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C389469271F93C600751216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C389476271F93C700751216 /* Preview Assets.xcassets in Resources */,
+				7C389473271F93C700751216 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC460EF2721090100ABDCF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC460FB2721090300ABDCF0 /* Preview Assets.xcassets in Resources */,
+				7CC460F82721090300ABDCF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCD414C2721326C004A3EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCD41512721326D004A3EAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCD41542721326D004A3EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCD41652721326E004A3EAA /* Preview Assets.xcassets in Resources */,
+				7CCD41622721326E004A3EAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCD417427213292004A3EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCD418027213293004A3EAA /* Preview Assets.xcassets in Resources */,
+				7CCD417D27213293004A3EAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C389467271F93C600751216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1E703F2736293A0045B5AE /* UIKitImagePicker.swift in Sources */,
+				7C389471271F93C600751216 /* RootView.swift in Sources */,
+				7C38948B271F9D5E00751216 /* Discoverer.swift in Sources */,
+				7C1E704827366F6D0045B5AE /* ResizeImage.swift in Sources */,
+				7C18F1862745BCC900440B58 /* CollaborationParticipant.swift in Sources */,
+				7CCC8C5727228F2500536B87 /* ParticipantScreenViewContainer.swift in Sources */,
+				7C89EDD82736907A000CA975 /* JoinScreenViewModel.swift in Sources */,
+				7C1E704B273686CB0045B5AE /* ViewModelContainer.swift in Sources */,
+				7C2CE0D52737470F001DBBBF /* BetterTextEditor.swift in Sources */,
+				7CCC8C4E2722820500536B87 /* ParticipantAppState.swift in Sources */,
+				7C389481271F953300751216 /* Server_MCNearbyServiceAdvertiserDelegate.swift in Sources */,
+				7C89EDD627368EBB000CA975 /* ContentView.swift in Sources */,
+				7CCD41DD27215639004A3EAA /* JoinScreenViewContainer.swift in Sources */,
+				7C89EDDC273692EC000CA975 /* ParticipantScreenViewModel.swift in Sources */,
+				7C389486271F997D00751216 /* Server_MCSessionDelegate.swift in Sources */,
+				7C389489271F9BA400751216 /* Message.swift in Sources */,
+				7C14D57F2720467D00DBA607 /* Sticky.swift in Sources */,
+				7C38948D271F9E3800751216 /* Discoverer_MCNearbyServiceBrowserDelegate.swift in Sources */,
+				7C38947F271F940E00751216 /* Server.swift in Sources */,
+				7CCC8C5B2722925E00536B87 /* HostAppState.swift in Sources */,
+				7C18F1A02745FE6100440B58 /* ImagePickerButton.swift in Sources */,
+				7C389494271FA1D300751216 /* Client_MCSessionDelegate.swift in Sources */,
+				7C14D574272034B800DBA607 /* CollaborationParticipantAction.swift in Sources */,
+				7C38946F271F93C600751216 /* CollaboRoom_iOSApp.swift in Sources */,
+				7C18F18C2745BCF100440B58 /* CollaborationHost.swift in Sources */,
+				7CCC8C502722851500536B87 /* CollaborationHostAction.swift in Sources */,
+				7C89EDE127369318000CA975 /* ParticipantScreenView.swift in Sources */,
+				7C2CE0D2273746F0001DBBBF /* DismissibleKeyboardWorkaround.swift in Sources */,
+				7C389492271FA12D00751216 /* Client.swift in Sources */,
+				7C89EDDA27369089000CA975 /* JoinScreenView.swift in Sources */,
+				7C1E7044273651B30045B5AE /* UIKitImagePickerButton.swift in Sources */,
+				7C389490271FA0DA00751216 /* ServiceType.swift in Sources */,
+				7C1E704127362BC50045B5AE /* UIKitImagePickerModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC460ED2721090100ABDCF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6876D827255709000C9F4B /* HostScreenViewContainer.swift in Sources */,
+				7CC461032721097C00ABDCF0 /* Server.swift in Sources */,
+				7CC461002721097C00ABDCF0 /* Discoverer_MCNearbyServiceBrowserDelegate.swift in Sources */,
+				7C89EDD027368D7E000CA975 /* StartScreenViewModel.swift in Sources */,
+				7C89EDD427368DB7000CA975 /* HostScreenView.swift in Sources */,
+				7C18F1872745BCC900440B58 /* CollaborationParticipant.swift in Sources */,
+				7C89EDD227368DA2000CA975 /* HostScreenViewModel.swift in Sources */,
+				7CC461052721097C00ABDCF0 /* Message.swift in Sources */,
+				7C89EDCC27368D25000CA975 /* RootView.swift in Sources */,
+				7CC461102721097C00ABDCF0 /* Discoverer.swift in Sources */,
+				7CC4610C2721097C00ABDCF0 /* Server_MCNearbyServiceAdvertiserDelegate.swift in Sources */,
+				7CC461022721097C00ABDCF0 /* Client.swift in Sources */,
+				7CC461072721097C00ABDCF0 /* Client_MCSessionDelegate.swift in Sources */,
+				7CCD41D7272141AB004A3EAA /* StartScreenView.swift in Sources */,
+				7CC460F62721090100ABDCF0 /* ContentView.swift in Sources */,
+				7C89EDCE27368D68000CA975 /* StartScreenViewContainer.swift in Sources */,
+				7C1E704D2736885F0045B5AE /* ViewModelContainer.swift in Sources */,
+				7CCC8C5C2722925E00536B87 /* HostAppState.swift in Sources */,
+				7CC461092721097C00ABDCF0 /* Server_MCSessionDelegate.swift in Sources */,
+				7CC461152721097C00ABDCF0 /* Sticky.swift in Sources */,
+				7CC4610F2721097C00ABDCF0 /* CollaborationParticipantAction.swift in Sources */,
+				7CCC8C532722893E00536B87 /* CollaborationHostAction.swift in Sources */,
+				7CC460F42721090100ABDCF0 /* CollaboRoom_tvOSApp.swift in Sources */,
+				7C18F18D2745BCF100440B58 /* CollaborationHost.swift in Sources */,
+				7C18F1922745C2E800440B58 /* ParticipantAppState.swift in Sources */,
+				7CC4610A2721097C00ABDCF0 /* ServiceType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCD41522721326D004A3EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9A458E27378A5100804B5D /* RootView.swift in Sources */,
+				7CCD415C2721326D004A3EAA /* ContentView.swift in Sources */,
+				7C18F1882745BCC900440B58 /* CollaborationParticipant.swift in Sources */,
+				7C18F18E2745BCF100440B58 /* CollaborationHost.swift in Sources */,
+				7CCD41B4272135C4004A3EAA /* Sticky.swift in Sources */,
+				7CCD415E2721326D004A3EAA /* CollaboRoom_watchOSApp.swift in Sources */,
+				7CCD41AD272135C4004A3EAA /* CollaborationParticipantAction.swift in Sources */,
+				7CCD41D1272139DF004A3EAA /* Message.swift in Sources */,
+				7CCD41602721326D004A3EAA /* ComplicationController.swift in Sources */,
+				7C1E704E273688650045B5AE /* ViewModelContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCD417227213292004A3EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCD41A7272135BF004A3EAA /* Discoverer.swift in Sources */,
+				7CCD41A9272135BF004A3EAA /* Server_MCSessionDelegate.swift in Sources */,
+				7CCD419E272135BF004A3EAA /* Client_MCSessionDelegate.swift in Sources */,
+				7CCD417B27213292004A3EAA /* ContentView.swift in Sources */,
+				7C18F1952745E80A00440B58 /* RootView.swift in Sources */,
+				7CCD417927213292004A3EAA /* CollaboRoom_macOSApp.swift in Sources */,
+				7CCC8C542722893F00536B87 /* CollaborationHostAction.swift in Sources */,
+				7C18F1A32746001000440B58 /* BetterTextEditor.swift in Sources */,
+				7CCD41A8272135BF004A3EAA /* Server_MCNearbyServiceAdvertiserDelegate.swift in Sources */,
+				7C18F1892745BCC900440B58 /* CollaborationParticipant.swift in Sources */,
+				7CCD41AA272135BF004A3EAA /* Message.swift in Sources */,
+				7C18F1932745C2E800440B58 /* ParticipantAppState.swift in Sources */,
+				7C1E704C2736885E0045B5AE /* ViewModelContainer.swift in Sources */,
+				7C18F1A22745FEDE00440B58 /* AppKitImagePickerButton.swift in Sources */,
+				7C18F1992745F55100440B58 /* ParticipantScreenViewContainer.swift in Sources */,
+				7CCD41A3272135BF004A3EAA /* Discoverer_MCNearbyServiceBrowserDelegate.swift in Sources */,
+				7C18F19C2745F87000440B58 /* JoinScreenViewContainer.swift in Sources */,
+				7CCD41A2272135BF004A3EAA /* Sticky.swift in Sources */,
+				7C18F1972745F54C00440B58 /* ParticipantScreenViewModel.swift in Sources */,
+				7CCD41A6272135BF004A3EAA /* Server.swift in Sources */,
+				7C18F1962745E9FF00440B58 /* JoinScreenViewModel.swift in Sources */,
+				7CCD419B272135BF004A3EAA /* CollaborationParticipantAction.swift in Sources */,
+				7C18F19A2745F72000440B58 /* ResizeImage.swift in Sources */,
+				7CCD41A1272135BF004A3EAA /* Client.swift in Sources */,
+				7C18F1982745F54F00440B58 /* ParticipantScreenView.swift in Sources */,
+				7C18F19B2745F86C00440B58 /* JoinScreenView.swift in Sources */,
+				7CCC8C5D2722925E00536B87 /* HostAppState.swift in Sources */,
+				7CCD41A5272135BF004A3EAA /* ServiceType.swift in Sources */,
+				7C18F18F2745BCF100440B58 /* CollaborationHost.swift in Sources */,
+				7C18F19F2745FE5E00440B58 /* ImagePickerButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CCD41592721326D004A3EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCD41552721326D004A3EAA /* CollaboRoom-watchOS WatchKit Extension */;
+			targetProxy = 7CCD41582721326D004A3EAA /* PBXContainerItemProxy */;
+		};
+		7CCD41682721326E004A3EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCD414D2721326C004A3EAA /* CollaboRoom-watchOS */;
+			targetProxy = 7CCD41672721326E004A3EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7C389465271F938200751216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7C389466271F938200751216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		7C389478271F93C700751216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"CollaboRoom-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = LZU4343CMY;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ryanhayward.CollaboRoom-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C389479271F93C700751216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"CollaboRoom-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = LZU4343CMY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ryanhayward.CollaboRoom-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC460FD2721090300ABDCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"CollaboRoom-tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = LZU4343CMY;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ryanhayward.CollaboRoom-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		7CC460FE2721090300ABDCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"CollaboRoom-tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = LZU4343CMY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ryanhayward.CollaboRoom-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCD416B2721326E004A3EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"CollaboRoom-watchOS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = LZU4343CMY;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CollaboRoom-watchOS WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CollaboRoom-watchOS WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ryanhayward.CollaboRoom-iOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		7CCD416C2721326E004A3EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"CollaboRoom-watchOS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = LZU4343CMY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CollaboRoom-watchOS WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CollaboRoom-watchOS WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ryanhayward.CollaboRoom-iOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		7CCD416F2721326E004A3EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LZU4343CMY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CollaboRoom_watchOS_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "CollaboRoom-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "me.ryanhayward.CollaboRoom-iOS";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ryanhayward.CollaboRoom-iOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		7CCD41702721326E004A3EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LZU4343CMY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CollaboRoom_watchOS_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "CollaboRoom-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "me.ryanhayward.CollaboRoom-iOS";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ryanhayward.CollaboRoom-iOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		7CCD418327213293004A3EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "CollaboRoom-macOS/CollaboRoom_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"CollaboRoom-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = LZU4343CMY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ryanhayward.CollaboRoom-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7CCD418427213293004A3EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "CollaboRoom-macOS/CollaboRoom_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"CollaboRoom-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = LZU4343CMY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ryanhayward.CollaboRoom-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C389464271F938200751216 /* Build configuration list for PBXProject "CollaboRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C389465271F938200751216 /* Debug */,
+				7C389466271F938200751216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C389477271F93C700751216 /* Build configuration list for PBXNativeTarget "CollaboRoom-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C389478271F93C700751216 /* Debug */,
+				7C389479271F93C700751216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC460FC2721090300ABDCF0 /* Build configuration list for PBXNativeTarget "CollaboRoom-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC460FD2721090300ABDCF0 /* Debug */,
+				7CC460FE2721090300ABDCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCD416A2721326E004A3EAA /* Build configuration list for PBXNativeTarget "CollaboRoom-watchOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCD416B2721326E004A3EAA /* Debug */,
+				7CCD416C2721326E004A3EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCD416E2721326E004A3EAA /* Build configuration list for PBXNativeTarget "CollaboRoom-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCD416F2721326E004A3EAA /* Debug */,
+				7CCD41702721326E004A3EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCD418227213293004A3EAA /* Build configuration list for PBXNativeTarget "CollaboRoom-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCD418327213293004A3EAA /* Debug */,
+				7CCD418427213293004A3EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C389461271F938200751216 /* Project object */;
+}

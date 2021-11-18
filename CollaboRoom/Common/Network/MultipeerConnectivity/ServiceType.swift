@@ -1,0 +1,2 @@
+
+let serviceType = "CollaboRoom"
